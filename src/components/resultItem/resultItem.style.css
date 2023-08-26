@@ -1,0 +1,14 @@
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .result-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

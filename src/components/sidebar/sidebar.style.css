@@ -1,0 +1,58 @@
+.sidebar {
+  background-color: #292929;
+  width: 288px;
+  height: calc(100vh - 60px);
+  position: relative;
+  transition: all ease 0.3ms;
+}
+.logo {
+}
+.logo-text {
+  font-family: "Pacifico", cursive;
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+  gap: 20px;
+}
+.socials {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+.social-link-icon {
+  background: #f30050;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+.close-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 600px) {
+  .close-icon {
+    display: none;
+  }
+}
