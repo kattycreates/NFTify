@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./search.style.css";
-import SearchIcon from "../../Assets/search.png";
+
 import { FaSearch } from "react-icons/fa";
 const Search = ({ searchText, setSearchText, handleSubmit }) => {
   return (

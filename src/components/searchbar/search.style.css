@@ -26,8 +26,7 @@
 .search-input::placeholder {
   color: white;
 }
-.search-icon {
-}
+
 @media only screen and (max-width: 600px) {
   .search-box {
     width: 100%;
