@@ -7,7 +7,9 @@ const Results = ({ data }) => {
       {data.map((item, index) => (
         <div key={index}>
           <ResultItem data={item}></ResultItem>
-          <span className="separator"></span>
+          {index < data.length - 1 && (
+            <span className="separator">{index}</span>
+          )}
         </div>
       ))}
     </div>
